@@ -1,3 +1,51 @@
-#MainPage {
+.MainFrame {
 	border: 1px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transform: translate(50%, 50%);
+	width: 50%;
+}
+
+.PageFormatting {
+	display: flex;
+	margin: 5px;
+	padding: 5px;
+	width: 95%;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+
+}
+
+.PageFormatting .LeftColumn {
+	display: flex;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 8px;
+	border: 1px solid #000;
+	width: 20%;
+	flex-direction: column;
+}
+
+.PageFormatting .CenterColumn {
+	display: flex;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 8px;
+	border: 1px solid #000;
+	width: 80%;
+	align-items: center;
+	flex-direction: column;
+}
+
+.PageFormatting .RightColumn {
+	display: flex;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 8px;
+	border: 1px solid #000;
+	width: 20%;
+	flex-direction: column;
 }
