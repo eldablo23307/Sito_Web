@@ -24,21 +24,20 @@
 			<h4>Contact Info</h4>
 		</div>
 	    </div> 
-	    <div id="GuessBook">
-		<h2>Guess Book</h2>
-	    	<form id="GuessBookForm" action="https://script.google.com/macros/s/AKfycbwVOQT5DZ1izkzdH8Bp2NME4MjhrgF92ItjUa56C3uanDajSUmvreu8NUnJzbwceCTN7g/exec" method="post">
-			<br>
-			<label for="GuessBookFormUrl">Url: </label>
-	    		<input type="url" id="GuessBookFormUrl" name="url" placeholder="https://" required>
-			<br>
-			<label for="GuessBookFormMessage">Message: </label>
-			<input type="textarea" id="GuessBookFormMessage" name="message" required placeholder="Message" maxlength="100">
-			<br>
-			<button type="submit">Send</button>
-	    	</form>
+	    <div id="GuestBook">
+		<h2>Guest Book</h2>
+	    	<form id="GuestBookForm" action="https://eldablo2307.pythonanywhere.com/saveData" method="POST">
+    			<br>
+    			<label for="GuestBookFormUrl">Url: </label>
+    			<input type="url" id="GuestBookFormUrl" name="GuestBookFormUrl" placeholder="https://" required>
+   			<br>
+   			<label for="GuestBookFormMessage">Message: </label>
+   			<textarea id="GuestBookFormMessage" name="GuestBookFormMessage" required placeholder="Message" maxlength="100"></textarea> 
+    			<br>
+    			<button type="submit">Send</button>
+		</form>
 		<h3>Message</h3>
-		<div id="GuessBookMessage">
-			
+		<div id="GuestBookMessage">	
 		</div>
 	    </div>
 	</div>

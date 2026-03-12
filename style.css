@@ -50,7 +50,7 @@
 	flex-direction: column;
 }
 
-#GuessBook {
+#GuestBook {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -59,7 +59,7 @@
 	width: 90%;
 }
 
-#GuessBookForm {
+#GuestBookForm {
 	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
