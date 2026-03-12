@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Eldablo Site</title>
+    <script src="script.js"></script>
 </head>
 <body>
 	<div class="MainFrame">
@@ -22,6 +23,20 @@
 		<div class="RightColumn">
 			<h4>Contact Info</h4>
 		</div>
+	    </div>
+	    <hr>
+	    <div id="GuessBook">
+		<h2>Guess Book</h2>
+	    	<form id="GuessBookForm" action="ProcessData()">
+			<br>
+			<label for="GuessBookFormUrl">Url: </label>
+	    		<input type="url" id="GuessBookFormUrl" placeholder="https://">
+			<br>
+			<label for="GuessBookFromMessage">Message: </label>
+			<input type="text" id="GuessBookFormMessage" required placeholder="Message" maxlength="100">
+			<br>
+			<button type="button">Send</button>
+	    	</form>
 	    </div>
 	</div>
 </body>
