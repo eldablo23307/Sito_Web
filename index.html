@@ -23,20 +23,23 @@
 		<div class="RightColumn">
 			<h4>Contact Info</h4>
 		</div>
-	    </div>
-	    <hr>
+	    </div> 
 	    <div id="GuessBook">
 		<h2>Guess Book</h2>
-	    	<form id="GuessBookForm" action="ProcessData()">
+	    	<form id="GuessBookForm" action="https://script.google.com/macros/s/AKfycbwVOQT5DZ1izkzdH8Bp2NME4MjhrgF92ItjUa56C3uanDajSUmvreu8NUnJzbwceCTN7g/exec" method="post">
 			<br>
 			<label for="GuessBookFormUrl">Url: </label>
-	    		<input type="url" id="GuessBookFormUrl" placeholder="https://">
+	    		<input type="url" id="GuessBookFormUrl" name="url" placeholder="https://" required>
 			<br>
-			<label for="GuessBookFromMessage">Message: </label>
-			<input type="text" id="GuessBookFormMessage" required placeholder="Message" maxlength="100">
+			<label for="GuessBookFormMessage">Message: </label>
+			<input type="textarea" id="GuessBookFormMessage" name="message" required placeholder="Message" maxlength="100">
 			<br>
-			<button type="button">Send</button>
+			<button type="submit">Send</button>
 	    	</form>
+		<h3>Message</h3>
+		<div id="GuessBookMessage">
+			
+		</div>
 	    </div>
 	</div>
 </body>

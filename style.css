@@ -4,7 +4,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	transform: translate(50%, 50%);
+	transform: translate(50%, 0%);
 	width: 50%;
 }
 
@@ -56,13 +56,16 @@
 	flex-direction: column;
 	padding: 5px;
 	margin: 5px;
+	width: 90%;
 }
 
 #GuessBookForm {
 	display: flex;
+	align-items: flex-start;
 	flex-direction: column;
 	border: 1px solid #000;
 	border-radius: 8px;
 	padding: 5px;
-	margin: 5px;
+	margin: 10px;
+	width: 80%;
 }
