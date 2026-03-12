@@ -1,7 +1,11 @@
-let message;
-fetch('https://eldablo2307.pythonanywhere.com/getData')
-  .then(response => response.json())
-  .then(data => message)
-  .catch(error => console.error('Error:', error));
+async function getData() {
+	const response = await fetch("https://eldablo2307.pythonanywhere.com/getData")
+	const data = await response.text()
+	return data
+}
+async function main() {
+	let risultato = await getData()
+		
+}
 
-console.log(message)
+main()
