@@ -69,3 +69,27 @@
 	margin: 10px;
 	width: 80%;
 }
+
+#GuestBookMessage {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 5px;
+	margin: 5px;
+	width: 80%;
+}
+
+.GuestBookMessageAppended {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.GuestBookMessageAppended hr {
+	width: 100%;
+}
